@@ -1,0 +1,33 @@
+# Ignore dependencies
+/node_modules
+/client/node_modules
+
+# Ignore build files
+/client/build
+/client/dist
+
+# Ignore package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore test coverage
+/coverage
+
+# Ignore temporary files
+*.log

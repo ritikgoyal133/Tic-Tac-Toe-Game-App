@@ -1,0 +1,95 @@
+.player-setup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #6610f2);
+  padding: 20px;
+}
+
+.player-setup-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.player-input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.player-input label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.player-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.player-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.player-checkbox label {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.player-checkbox input {
+  margin-right: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.start-game-btn {
+  width: 100%;
+  background: #28a745;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.start-game-btn:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .player-setup-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .player-input input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .start-game-btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
